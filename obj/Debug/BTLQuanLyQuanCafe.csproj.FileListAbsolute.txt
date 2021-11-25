@@ -1,0 +1,17 @@
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\bin\Debug\BTLQuanLyQuanCafe.exe.config
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\bin\Debug\BTLQuanLyQuanCafe.exe
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\bin\Debug\BTLQuanLyQuanCafe.pdb
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fBanAn.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fDangNhap.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fHome.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fNhanVien.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fThanhToan.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fThongKeDoanhThu.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fThucDon.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.exe
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.pdb
+C:\Users\Admin\OneDrive\Máy tính\BTLQuanLyQuanCafe\obj\Debug\BTLQuanLyQuanCafe.fChiTietHoaDon.resources
