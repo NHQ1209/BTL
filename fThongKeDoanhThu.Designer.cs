@@ -52,6 +52,7 @@ namespace BTLQuanLyQuanCafe
             this.bttimnhanvien = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_hoadon)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -59,6 +60,8 @@ namespace BTLQuanLyQuanCafe
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Soban)).BeginInit();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -104,7 +107,7 @@ namespace BTLQuanLyQuanCafe
             this.groupBox2.Size = new System.Drawing.Size(219, 109);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Xem chi tiết";
+            this.groupBox2.Text = "Thanh Toán";
             // 
             // btxemcthd
             // 
@@ -117,7 +120,7 @@ namespace BTLQuanLyQuanCafe
             this.btxemcthd.Name = "btxemcthd";
             this.btxemcthd.Size = new System.Drawing.Size(210, 78);
             this.btxemcthd.TabIndex = 1;
-            this.btxemcthd.Text = "Xem chi tiết hóa đơn";
+            this.btxemcthd.Text = "Thanh Toán";
             this.btxemcthd.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -373,6 +376,7 @@ namespace BTLQuanLyQuanCafe
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.dataGridView1);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.ForeColor = System.Drawing.Color.Red;
             this.groupBox6.Location = new System.Drawing.Point(243, 511);
@@ -388,6 +392,15 @@ namespace BTLQuanLyQuanCafe
             this.monthCalendar1.Location = new System.Drawing.Point(4, 504);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 14;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 21);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(991, 133);
+            this.dataGridView1.TabIndex = 0;
             // 
             // fThongKeDoanhThu
             // 
@@ -413,6 +426,8 @@ namespace BTLQuanLyQuanCafe
             ((System.ComponentModel.ISupportInitialize)(this.Soban)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -441,5 +456,6 @@ namespace BTLQuanLyQuanCafe
         private System.Windows.Forms.Button bttimnhanvien;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

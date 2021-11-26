@@ -51,12 +51,6 @@
     <Compile Include="fBanAn.Designer.cs">
       <DependentUpon>fBanAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="fChiTietHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fChiTietHoaDon.Designer.cs">
-      <DependentUpon>fChiTietHoaDon.cs</DependentUpon>
-    </Compile>
     <Compile Include="fDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,9 +101,6 @@
   <ItemGroup>
     <EmbeddedResource Include="fBanAn.resx">
       <DependentUpon>fBanAn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fChiTietHoaDon.resx">
-      <DependentUpon>fChiTietHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fDangNhap.resx">
       <DependentUpon>fDangNhap.cs</DependentUpon>

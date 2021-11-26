@@ -51,7 +51,7 @@ namespace BTLQuanLyQuanCafe
             this.groupBoxhd.Size = new System.Drawing.Size(644, 273);
             this.groupBoxhd.TabIndex = 2;
             this.groupBoxhd.TabStop = false;
-            this.groupBoxhd.Text = "Hóa đơn";
+            this.groupBoxhd.Text = "Chi Tiết Hóa Đơn";
             // 
             // dg_monan_ofban
             // 
