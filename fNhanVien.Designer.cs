@@ -30,7 +30,6 @@ namespace BTLQuanLyQuanCafe
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -70,6 +69,7 @@ namespace BTLQuanLyQuanCafe
             this.btlammoi = new System.Windows.Forms.Button();
             this.txttim = new System.Windows.Forms.TextBox();
             this.bttim = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_nhanvien)).BeginInit();
@@ -104,17 +104,6 @@ namespace BTLQuanLyQuanCafe
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin nhân viên";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label15.Location = new System.Drawing.Point(261, 224);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(14, 18);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "*";
             // 
             // label11
             // 
@@ -168,6 +157,7 @@ namespace BTLQuanLyQuanCafe
             this.txtmanv.Name = "txtmanv";
             this.txtmanv.Size = new System.Drawing.Size(377, 22);
             this.txtmanv.TabIndex = 0;
+            this.txtmanv.TextChanged += new System.EventHandler(this.txtmanv_TextChanged);
             // 
             // cbgioitinh
             // 
@@ -181,6 +171,7 @@ namespace BTLQuanLyQuanCafe
             this.cbgioitinh.Name = "cbgioitinh";
             this.cbgioitinh.Size = new System.Drawing.Size(110, 24);
             this.cbgioitinh.TabIndex = 4;
+            this.cbgioitinh.Click += new System.EventHandler(this.cbgioitinh_Click);
             // 
             // label5
             // 
@@ -575,6 +566,17 @@ namespace BTLQuanLyQuanCafe
             this.bttim.Text = "Tìm";
             this.bttim.UseVisualStyleBackColor = true;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label15.Location = new System.Drawing.Point(535, 159);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(14, 18);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "*";
+            // 
             // fNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -587,6 +589,7 @@ namespace BTLQuanLyQuanCafe
             this.Controls.Add(this.groupBox1);
             this.Name = "fNhanVien";
             this.Text = "fNhanVien";
+            this.Load += new System.EventHandler(this.fNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -603,7 +606,6 @@ namespace BTLQuanLyQuanCafe
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -643,5 +645,6 @@ namespace BTLQuanLyQuanCafe
         private System.Windows.Forms.Button btlammoi;
         private System.Windows.Forms.TextBox txttim;
         private System.Windows.Forms.Button bttim;
+        private System.Windows.Forms.Label label15;
     }
 }

@@ -16,5 +16,20 @@ namespace BTLQuanLyQuanCafe
         {
             InitializeComponent();
         }
+
+        private void fNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbgioitinh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtmanv_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
